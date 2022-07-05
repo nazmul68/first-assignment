@@ -5,7 +5,7 @@ body {
 
 /* header-section */
 
-.align-center {
+.header-caption {
     text-align: center;
     color: rgb(255, 255, 255);
     width: 70%;
@@ -14,7 +14,7 @@ body {
 
 }
 
-.align-center h1 {
+.header-caption h1 {
     font-weight: 800;
     font-size: 50px;
     padding-top: 80px;
@@ -37,3 +37,64 @@ body {
     height: 600px;
     margin-top: -30px;
 }
+
+/* second-section */
+.text-center {
+    text-align: center;
+    width: 60%;
+    margin-left: 60px;
+}
+
+.text-center h1 {
+    font-size: 40px;
+    font-weight: 900px;
+}
+
+.flexible-container {
+    display: flex;
+    width: 60%;
+
+}
+
+.text-center {
+    padding-left: 250px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.shadow-box {
+    box-shadow: 15px 18px 25px gray;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+
+}
+
+.ammount-box {
+    padding-left: 250px;
+
+}
+
+#border-color {
+    border: 2px solid tomato;
+    color: tomato;
+}
+
+input {
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 420px;
+    border-bottom: 2px solid #B3B3B3;
+    width: 42%;
+    margin-left: 250px;
+
+}
+
+.go-center {
+    margin-left: 50%;
+}
+
+/* third-section */
