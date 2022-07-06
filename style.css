@@ -187,7 +187,7 @@ body {
     width: 60%;
     padding: 60px 20px;
     margin-left: 246px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 #email {
@@ -211,3 +211,23 @@ body {
 }
 
 /* footer-section */
+footer {
+    background-color: black;
+    margin-top: 140px;
+    padding: 10px 0;
+}
+
+footer h1 {
+    color: orangered;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p {
+    color: #D9DBE1;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* THE END */
