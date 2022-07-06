@@ -18,6 +18,7 @@ body {
     font-weight: 800;
     font-size: 50px;
     padding-top: 80px;
+    color: #FFFFFF;
 
 }
 
@@ -52,7 +53,6 @@ body {
 
 .flexible-container {
     display: flex;
-
 }
 
 .text-center {
@@ -62,7 +62,7 @@ body {
 }
 
 .shadow-box {
-    background-color: #FAFAFA;
+    background-color: #F5F5F5;
     padding: 40px;
     margin: 10px;
     border-radius: 8px;
@@ -82,7 +82,7 @@ body {
     color: tomato;
 }
 
-input {
+#other-ammount {
     border: none;
     margin-bottom: 30px;
     padding-left: 330px;
@@ -99,7 +99,7 @@ input {
 /* third-section */
 .icon-section {
     margin-left: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 
 .common {
@@ -129,10 +129,85 @@ input {
     background-color: rgb(248, 224, 224);
 }
 
-span {
+.icon-1 {
     font-size: 40px;
     display: block;
     margin-top: 10px;
+    color: #FF5959;
+    cursor: pointer;
 }
 
 /* fourth-section */
+
+.half-width {
+    width: 50%;
+    padding: 4%;
+}
+
+.half-width img {
+    width: 85%;
+    height: 400px;
+    margin-right: 140px;
+    border-radius: 5px;
+}
+
+.text-area {
+    margin-left: 70px;
+}
+
+/* fifth-section */
+
+.one-third-width {
+    width: 20%;
+    margin-left: 90px;
+    padding-left: 50px;
+    border-right: 5px solid rgb(170, 162, 162);
+}
+
+.no-border {
+    border: none;
+}
+
+.icon-2 {
+    font-size: 50px;
+    color: rgb(86, 194, 86);
+    cursor: pointer;
+}
+
+/* last-section */
+.updates-div {
+    width: 70%;
+    text-align: center;
+    padding-left: 202px;
+    margin-top: 60px;
+}
+
+.email-button-div {
+    background-color: wheat;
+    width: 60%;
+    padding: 60px 20px;
+    margin-left: 246px;
+    border-radius: 3px;
+}
+
+#email {
+    margin-left: 150px;
+    margin-top: 5px;
+    padding: 15px 70px;
+    background-color: rgb(192, 192, 192, 1);
+    border-radius: 5px;
+    border: none;
+
+}
+
+#button {
+    padding: 15px 50px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    margin-left: -6px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* footer-section */
