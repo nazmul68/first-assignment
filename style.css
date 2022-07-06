@@ -52,18 +52,17 @@ body {
 
 .flexible-container {
     display: flex;
-    width: 60%;
 
 }
 
 .text-center {
-    padding-left: 250px;
+    padding-left: 220px;
     margin-top: 90px;
     margin-bottom: 20px;
 }
 
 .shadow-box {
-    box-shadow: 15px 18px 25px gray;
+    background-color: #FAFAFA;
     padding: 40px;
     margin: 10px;
     border-radius: 8px;
@@ -74,7 +73,7 @@ body {
 }
 
 .ammount-box {
-    padding-left: 250px;
+    padding-left: 220px;
 
 }
 
@@ -86,15 +85,54 @@ body {
 input {
     border: none;
     margin-bottom: 30px;
-    padding-left: 420px;
+    padding-left: 330px;
     border-bottom: 2px solid #B3B3B3;
     width: 42%;
-    margin-left: 250px;
+    margin-left: 260px;
 
 }
 
 .go-center {
-    margin-left: 50%;
+    margin-left: 600px;
 }
 
 /* third-section */
+.icon-section {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.common {
+    width: 20%;
+    margin-left: 30px;
+    padding: 10px 42px;
+    border-radius: 5px;
+}
+
+.common h1 {
+    color: #121212;
+}
+
+.common p {
+    color: #707070;
+}
+
+.food-for-family {
+    background-color: #e1ebec;
+}
+
+.shelter-for-family {
+    background-color: #f5eeee;
+}
+
+.child-education {
+    background-color: rgb(248, 224, 224);
+}
+
+span {
+    font-size: 40px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* fourth-section */
